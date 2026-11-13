@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription à la newsletter</title>
+</head>
+<body>
+    <main>
+        <h1>
+            <strong>Formulaire à remplir</strong>
+        </h1>
+          <form method="post" action="">
+            <div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" placeholder="Entrez votre nom" required>
+            </div>
+            <div>
+                <label for="mail">Mail :</label>
+                <input type="email" name="mail" id="mail" placeholder="Entrez votre mail" required>
+            </div>
+            <div>
+                <label for="mdp">Mot de passe (8 caractères minimum) :</label>
+                <input type="password" name="mdp" id="mdp" placeholder="Entrez votre mot de passe" minlength="8" required>
+            </div>
+            <div>
+                <input type="checkbox" name="mails" id="mails" checked>
+                <label for="mails">J'accepte de recevoir des mails</label>
+            </div>
+            <div>
+                <input type="checkbox" name="rgpd" id="rgpd">
+                <label for="rgpd">J'accepte le traitement de mes données personnelles à des fins de gestion des adhérents</label>
+            </div>
+            <div>
+                <input type="submit" value="S'inscrire">
+            </div>
+          </form>
+    </main>
+</body>
+</html>
